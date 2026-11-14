@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Raw PDB structures (generated via src/02_fetch_pdb_structures.py)
+data/raw/structures/*.pdb
+
+# OS files
+.DS_Store
+Thumbs.db
